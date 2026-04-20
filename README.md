@@ -1,4 +1,4 @@
-# 🦟 Dengue Transmission Model: Impact of Carrying Capacity on Control Strategies
+# 🦟 Role of carrying capacity in dengue control: a mathematical model on waste management and public awareness
 
 [![DOI](https://img.shields.io/badge/DOI-10.1080/25765299.2026.2651569-blue)](https://doi.org/10.1080/25765299.2026.2651569)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -22,6 +22,14 @@ The model demonstrates how these interventions can drive the **basic reproductio
 
 ## 📊 Model Diagram
 
+<!-- Rendered Mermaid diagram for GitHub compatibility -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/your-username/dengue-carrying-capacity-model/main/model-diagram.png" alt="SEIR-SEI Model Diagram" width="600"/>
+</div>
+
+<details>
+<summary>View Mermaid Source</summary>
+
 ```mermaid
 graph TD
     A[Susceptible Humans (S_h)] --> B[Exposed Humans (E_h)]
@@ -39,6 +47,8 @@ graph TD
 
     I --> G
 ```
+
+</details>
 
 ## 📁 Repository Contents
 
