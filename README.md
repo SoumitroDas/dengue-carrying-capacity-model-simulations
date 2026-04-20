@@ -87,8 +87,8 @@ Full published manuscript with detailed methodology, results, and discussion.
 ### Getting Started
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/dengue-carrying-capacity-model.git
-   cd dengue-carrying-capacity-model
+   git clone https://github.com/SoumitroDas/dengue-carrying-capacity-model-simulations.git
+   cd dengue-carrying-capacity-model-simulations
    ```
 
 2. Open notebooks in Mathematica:
