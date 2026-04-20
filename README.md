@@ -104,6 +104,16 @@ Full published manuscript with detailed methodology, results, and discussion.
 - **R₀ Simulation**: Modify intervention ranges to explore different scenarios
 - **Sensitivity Analysis**: Change sample sizes or parameter distributions as needed
 
+## ⚠️ Educational Use Only
+
+This code is provided for **learning and educational purposes**. The parameter values and initial conditions are illustrative examples to demonstrate the model structure and methodology.
+
+For research applications, you will need to:
+- Calibrate parameters to your specific context/data
+- Validate initial conditions for your population
+- Verify results against published findings
+
+This approach allows others to learn from your methodology while encouraging them to develop their own calibrated implementations.
 
 ## 🎯 Results & Insights
 
