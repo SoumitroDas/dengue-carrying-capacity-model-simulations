@@ -68,13 +68,12 @@ Explores the basic reproduction number as a function of intervention parameters:
 **File**: `Sensitivity Analysis.nb`
 
 Comprehensive parameter sensitivity analysis including:
-- Partial rank correlation coefficients (PRCC)
-- Tornado diagrams for parameter importance
+- Diagrams for parameter importance
 - Uncertainty quantification
 - Identification of most influential model parameters
 
 ### 4. 📄 Research Paper
-**File**: `Role of carrying capacity in dengue control a mathematical model on waste management and public awareness.pdf`
+**File**: [Role of carrying capacity in dengue control a mathematical model on waste management and public awareness](https://doi.org/10.1080/25765299.2026.2651569)
 
 Full published manuscript with detailed methodology, results, and discussion.
 
