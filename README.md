@@ -1,7 +1,7 @@
 # 🦟 Role of carrying capacity in dengue control: a mathematical model on waste management and public awareness
 
 [![DOI](https://img.shields.io/badge/DOI-10.1080/25765299.2026.2651569-blue)](https://doi.org/10.1080/25765299.2026.2651569)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the **Wolfram Mathematica** notebooks and supplementary materials for the research article published in the *Arab Journal of Basic and Applied Sciences* (2026).
 
@@ -20,35 +20,29 @@ The model demonstrates how these interventions can drive the **basic reproductio
 - **Intervention Analysis**: Quantitative assessment of waste management and awareness impacts.
 - **Numerical Simulations**: Comprehensive analysis of transmission dynamics and control thresholds.
 
-## 📊 Model Diagram
+## 📊 Model Description
 
-<!-- Rendered Mermaid diagram for GitHub compatibility -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/your-username/dengue-carrying-capacity-model/main/model-diagram.png" alt="SEIR-SEI Model Diagram" width="600"/>
-</div>
+The model consists of two populations: **humans** and **mosquitoes**.
 
-<details>
-<summary>View Mermaid Source</summary>
+### Human Compartment (SEIR)
+- **S_h**: Susceptible humans
+- **E_h**: Exposed humans (infected but not yet infectious)
+- **I_h**: Infectious humans
+- **R_h**: Recovered humans
 
-```mermaid
-graph TD
-    A[Susceptible Humans (S_h)] --> B[Exposed Humans (E_h)]
-    B --> C[Infectious Humans (I_h)]
-    C --> D[Recovered Humans (R_h)]
+### Mosquito Compartment (SEI)
+- **S_m**: Susceptible mosquitoes
+- **E_m**: Exposed mosquitoes (infected but not yet infectious)
+- **I_m**: Infectious mosquitoes
 
-    E[Susceptible Mosquitoes (S_m)] --> F[Exposed Mosquitoes (E_m)]
-    F --> G[Infectious Mosquitoes (I_m)]
+### Transmission Flow
+1. Infectious mosquitoes (I_m) infect susceptible humans (S_h) → E_h
+2. Infectious humans (I_h) infect susceptible mosquitoes (S_m) → E_m
+3. Exposed compartments progress to infectious compartments
 
-    G --> B
-    C --> F
-
-    H[Waste Management (W)] --> I[Carrying Capacity (K)]
-    J[Public Awareness (A)] --> I
-
-    I --> G
-```
-
-</details>
+### Intervention Effects
+- **Waste Management (W)** and **Public Awareness (A)** reduce the mosquito carrying capacity (K)
+- Lower carrying capacity means fewer mosquitoes, reducing transmission potential
 
 ## 📁 Repository Contents
 
